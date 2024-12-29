@@ -6,7 +6,7 @@ import css from "../../assets/Css.png"
 import javaScript from "../../assets/JavaScript.png";
 import react from "../../assets/React.png";
 import node from "../../assets/NodeJs.png";
-import java from "../../assets/java.png"
+import java from "../../assets/Java.png"
 import mysql from "../../assets/MySQL.png";
 
 const Experiencia = () => {
