@@ -1,0 +1,32 @@
+/* tecnologias-usadas */
+.tecnologias-usadas {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.titulo {
+    text-align: center;
+}
+
+.icones-tecnologias {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.imagem {
+    width: 65px;
+    margin: 20px;
+    transition: all 0.3s ease;
+}
+
+.imagem:hover {
+    transform: scale(1.2);
+}
+
+.frase-objetivo {
+    width: 38%;
+    text-align: justify;
+    margin: auto;
+}

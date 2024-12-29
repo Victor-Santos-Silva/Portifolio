@@ -1,0 +1,71 @@
+/* Container Principal */
+.containerSobreMim {
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* containerNome */
+.containerNome {
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+.seta {
+    width: 100px;
+}
+
+.cor-roxa {
+    color: #7127BA;
+}
+
+
+/* container-introducao */
+.container-introducao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: -120px;
+}
+
+.perfil {
+    width: 280px;
+    border-radius: 50%;
+    margin-top: 110px;
+    box-shadow: 0 0 20px 10px rgba(162, 67, 206, 0.8);
+}
+
+.frase {
+    text-align: left;
+    margin-top: 100px;
+}
+
+.fraseInspiradora1 {
+    font-size: 17px;
+}
+
+.fraseInspiradora {
+    font-size: 45px;
+}
+
+
+/* Sobre */
+.sobre {
+    margin-top: 50px;
+
+}
+
+.tituloSobreMim {
+    margin: auto;
+    width: 38%;
+    text-align: justify;
+}
+
+.formacao-academica {
+    margin-top: 50px;
+}
+
+
