@@ -50,3 +50,22 @@
     }
 
 }
+
+@media screen and (max-width: 412px) {
+    .textoFooter-titulo {
+        font-size: 25px;
+    }
+
+    .textoFooter {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .texto-email {
+        font-size: 15px;
+    }
+
+    .texto-redes-sociais {
+        font-size: 17px;
+    }
+}

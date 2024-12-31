@@ -1,11 +1,10 @@
-/* containerNome */
-
 .container-introducao-master {
     margin-top: 50px;
     margin-bottom: 100px;
 
 }
 
+/* containerNome */
 .containerNome {
     display: flex;
     justify-content: center;
@@ -78,5 +77,54 @@
 
     .frase {
         margin-top: -10px;
+    }
+}
+
+@media (max-width: 412px) {
+    .perfil {
+        width: 200px;
+    }
+
+    .seta {
+        width: 50px;
+    }
+
+    .cor-roxa {
+        color: #7127BA;
+    }
+
+    h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .containerNome {
+        justify-content: center;
+        width: 200px;
+        margin-bottom: 20px;
+        margin-left: 170px;
+    }
+
+    .frase {
+        text-align: left;
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    .fraseInspiradora1 {
+        font-size: 10px;
+    }
+
+    .fraseInspiradora {
+        font-size: 20px;
+    }
+
+    .container-profissao {
+        margin-top: 50px;
+    }
+
+    .profissao-introducao {
+        font-size: 15px;
+        width: 50%;
     }
 }

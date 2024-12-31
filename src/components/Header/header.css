@@ -7,7 +7,6 @@
     background-color: #1A0B2E;
     justify-content: space-around;
     display: flex;
-
 }
 
 .nome-logo {
@@ -32,7 +31,7 @@ a {
     color: #FFFFFF;
     background-color: #1A0B2E;
     font-family: Plus Jakarta Sans;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
 }
 
 a:hover {
@@ -40,16 +39,25 @@ a:hover {
     background-color: #FFFFFF;
     padding: 5px;
     border-radius: 10px;
-    transform: scale(1.2); /* Aplica um zoom */
+    transform: scale(1.2);
+    /* Aplica um zoom */
 }
 
 .menu {
     display: flex;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 412px) {
     .menu-palavras {
         font-size: 15px;
+        padding: 10px;
+    }
+    .menu{
+    }
+    .nome-logo {
+        font-size: 15px;
+        padding: 10px;
+        margin-top: 5px;
 
     }
 }

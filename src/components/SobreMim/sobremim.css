@@ -18,3 +18,13 @@
     width: 80%;
     text-align: justify;
 }
+
+@media (max-width: 412px) {
+    .imagem-sobremim {
+        width: 200px;
+    }
+
+    .tituloSobreMim{
+        font-size: 20px;
+    }
+}

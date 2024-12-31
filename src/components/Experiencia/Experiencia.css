@@ -52,3 +52,21 @@
     }
 
 }
+
+@media screen and (max-width: 412px) {
+    .icones-tecnologias {
+        width: 90%;
+        font-size: 15px;
+
+    }
+
+    .imagem {
+        width: 40px;
+    }
+
+    .frase-objetivo {
+        text-align: justify;
+        font-size: 15px;
+    }
+
+}
