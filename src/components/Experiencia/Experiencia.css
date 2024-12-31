@@ -31,6 +31,13 @@
     margin: auto;
 }
 
+.container-tecnologias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width: 768px) {
     .icones-tecnologias {
         width: 100%;
@@ -43,5 +50,5 @@
     .frase-objetivo {
         width: 80%;
     }
-    
+
 }

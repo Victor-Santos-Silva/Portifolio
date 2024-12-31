@@ -2,10 +2,10 @@
 .containerSobreMim {
     text-align: center;
     margin-top: 50px;
-    align-items: center;
-    justify-content: center;
 }
-
+.sobre {
+    margin-top: 50px;
+}
 .imagem-sobremim {
     border-radius: 50%;
     margin: auto;
@@ -13,42 +13,8 @@
 
 }
 
-
-/* Sobre */
-.sobre {
-    margin-top: 50px;
-
-}
-
 .tituloSobreMim {
     margin: auto;
     width: 80%;
     text-align: justify;
-}
-
-
-/* Responsividade */
-
-@media (max-width: 768px) {
-
-    .container-introducao {
-        flex-direction: column;
-    }
-
-    .perfil {
-        margin-top: 50px;
-    }
-
-    .frase {
-        margin-top: 50px;
-    }
-
-    .sobre {
-        margin-top: 50px;
-    }
-
-    .tituloSobreMim {
-        width: 80%;
-        text-align: center;
-    }
 }

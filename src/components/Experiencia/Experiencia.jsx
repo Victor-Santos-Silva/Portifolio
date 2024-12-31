@@ -16,13 +16,21 @@ const Experiencia = () => {
                 <h1 className='titulo'>Tecnologias:</h1>
 
                 <div className='icones-tecnologias'>
-                    <img src={html} alt="icone MySQL" className='imagem' />
-                    <img src={css} alt="icone MySQL" className='imagem' />
-                    <img src={javaScript} alt="icone JavaScript" className='imagem' />
-                    <img src={react} alt="icone React" className='imagem' />
-                    <img src={node} alt="icone Node Js" className='imagem' />
-                    <img src={java} alt="icone MySQL" className='imagem' />
-                    <img src={mysql} alt="icone MySQL" className='imagem' />
+
+                    <div className='container-tecnologias'>
+                        <h1>Front End:</h1>
+                        <img src={html} alt="icone MySQL" className='imagem' />
+                        <img src={css} alt="icone MySQL" className='imagem' />
+                        <img src={javaScript} alt="icone JavaScript" className='imagem' />
+                        <img src={react} alt="icone React" className='imagem' />
+                    </div>
+
+                    <div className='container-tecnologias'>
+                        <h1>Back End:</h1>
+                        <img src={node} alt="icone Node Js" className='imagem' />
+                        <img src={java} alt="icone MySQL" className='imagem' />
+                        <img src={mysql} alt="icone MySQL" className='imagem' />
+                    </div>
                 </div>
             </div>
 
