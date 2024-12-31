@@ -5,7 +5,7 @@ import seta from "../../assets/seta.png"
 
 function Introducao() {
     return (
-        <section>
+        <section className='container-introducao-master'>
             <div className="containerNome">
                 <img src={seta} alt="seta" className='seta' />
                 <h3>Olá! Eu sou <b className='cor-roxa'>Victor dos Santos.</b></h3>
@@ -21,6 +21,10 @@ function Introducao() {
                     <h1 className='fraseInspiradora'>Na <b className='cor-roxa'>tecnologia.</b></h1>
                     <h5 className=''>Criando o futuro, uma linha de código por vez.</h5>
                 </div>
+            </div>
+
+            <div className='container-profissao'>
+                <h1 className='profissao-introducao'>Desenvolvedor Full-Stack.</h1>
             </div>
         </section>
     )

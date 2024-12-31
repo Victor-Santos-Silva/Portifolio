@@ -1,14 +1,15 @@
-import Header from "../../components/Header/Header";
 import "./Projects.css";
+
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+
 function Projects() {
     return (
         <section c>
             <Header />
-
             <div className="container-projetos">
                 <h1 className="titulo-projetos">Em desenvolvimento, aguarde...</h1>
             </div>
-        
         </section>
     )
 }

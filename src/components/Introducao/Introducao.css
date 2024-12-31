@@ -1,9 +1,15 @@
 /* containerNome */
+
+.container-introducao-master {
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
 .containerNome {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    margin-left:-200px ;
+    margin-left: -200px;
 }
 
 .seta {
@@ -43,13 +49,34 @@
     font-size: 45px;
 }
 
-@media (max-width: 768px) {
+.container-profissao {
+    margin-top: 100px;
+}
+
+.profissao-introducao {
+    text-align: center;
+    font-size: 25px;
+    color: #7127BA;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3);
+    background-color: aliceblue;
+    width: 40%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+@media (max-width: 839px) {
+    .container-introducao {
+        flex-direction: column;
+    }
+
     .containerNome {
         margin: auto;
         margin-top: 50px;
-        margin-bottom: 50px;
         margin-left: 150px;
-        width: 70%;
     }
 
+    .frase {
+        margin-top: -10px;
+    }
 }
