@@ -1,41 +1,30 @@
 // Css
 import './sobremim.css';
 
-import perfil from "../../assets/Foto Perfil.jpg";
-import seta from "../../assets/seta.png"
+import foto from '../../assets/Foto Perfil.jpg'
 
 const SobreMim = () => {
     return (
         <section className='containerSobreMim'>
 
-            <div className="containerNome">
-                <img src={seta} alt="seta" className='seta' />
-                <h3>Olá! Eu sou <b className='cor-roxa'>Victor dos Santos.</b></h3>
+            <div >
+                <img src={foto} alt="foto do criador do site" className='imagem-sobremim' />
             </div>
 
-            <div className='container-introducao'>
-                <img src={perfil} alt="" className='perfil' />
-
-                <div className='frase'>
-                    <h2 className='fraseInspiradora1'>Explorando o limite</h2>
-                    <h1 className='fraseInspiradora'>Entre o possível</h1>
-                    <h1 className='fraseInspiradora'>E o extraordinário</h1>
-                    <h1 className='fraseInspiradora'>Na <b className='cor-roxa'>tecnologia.</b></h1>
-                    <h5 className=''>Criando o futuro, uma linha de código por vez.</h5>
-                </div>
-            </div>
 
             <div className='sobre'>
                 <div>
-                    <h1 className='tituloSobreMim'>Sou Desenvolvedor de Software <b className='cor-roxa'>Full-Stack.</b></h1>
-                    <h1 className='tituloSobreMim'>Tenho 22 anos, sou de São Paulo - SP.</h1>
-                </div>
-
-                <div className='formacao-academica'>
-                    <h1 className='tituloSobreMim'><b className='cor-roxa'>Formação Academica:</b></h1>
-                    <h1 className='tituloSobreMim'>Técnico em Desenvolvimento de Sistemas.</h1>
-                    <h1 className='tituloSobreMim'>Graduação em Ciência da Computação.</h1>
-                    <h1 className='tituloSobreMim'></h1>
+                    <h1 className='tituloSobreMim'>Olá, eu sou Victor, um desenvolvedor de 22 anos da zona leste de São Paulo, apaixonado por tecnologia e inovação.</h1>
+                    <br />
+                    <h1 className='tituloSobreMim'>Tenho experiência em desenvolvimento front-end e back-end utilizando tecnologias como HTML, CSS, JavaScript, React JS, Node JS, Java. Também possuo conhecimento básico de MySQL e criação de APIs simples com Node.</h1>
+                    <br />
+                    <h1 className='tituloSobreMim'>Meu interesse por programação começou quando criei meus primeiros projetos e percebi o impacto que a tecnologia pode ter na vida das pessoas</h1>
+                    <br />
+                    <h1 className='tituloSobreMim'>Busco constantemente evoluindo como desenvolvedor, aprendendo novas tecnologias e contribuindo para projetos que fazem a diferença.</h1>
+                    <br />
+                    <h1 className='tituloSobreMim'>Fora do código, gosto de explorar novas ideias, assistir séries e estar em contato com inovações tecnológicas.</h1>
+                    <br />
+                    <h1 className='tituloSobreMim'>Atualmente, estou cursando o 5º semestre da graduação em Ciência da Computação e o 4º semestre do Técnico em Desenvolvimento de Sistemas, o que me fornece uma base sólida e prática para o desenvolvimento de soluções tecnológicas.</h1>
                 </div>
             </div>
 
