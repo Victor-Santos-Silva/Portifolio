@@ -83,14 +83,13 @@
     .frase {
         margin-top: 50px;
     }
-    .sobre{
+
+    .sobre {
         margin-top: 50px;
     }
 
-    .tituloSobreMim{
-        width: 100%;
-        font-size: 20px;
+    .tituloSobreMim {
+        width: 80%;
         text-align: center;
-        padding: 10px;
     }
 }
