@@ -30,3 +30,18 @@
     text-align: justify;
     margin: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .icones-tecnologias {
+        width: 100%;
+    }
+
+    .imagem {
+        width: 50px;
+    }
+
+    .frase-objetivo {
+        width: 80%;
+    }
+    
+}
