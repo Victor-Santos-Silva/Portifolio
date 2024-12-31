@@ -46,3 +46,10 @@ a:hover {
 .menu {
     display: flex;
 }
+
+@media (max-width: 600px) {
+    .menu-palavras {
+        font-size: 15px;
+
+    }
+}
