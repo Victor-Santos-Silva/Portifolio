@@ -8,7 +8,7 @@ function Projects() {
         <section c>
             <Header />
             <div className="container-projetos">
-                <h1 className="titulo-projetos">Em desenvolvimento, aguarde...</h1>
+                <h1 className="titulo-projetos">Em breve...</h1>
             </div>
         </section>
     )
