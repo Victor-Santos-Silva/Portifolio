@@ -28,7 +28,7 @@ const Experiencia = () => {
                     <div className='container-tecnologias'>
                         <h1>Back End:</h1>
                         <img src={node} alt="icone Node Js" className='imagem' />
-                        <img src={java} alt="icone MySQL" className='imagem' />
+                        {/* <img src={java} alt="icone MySQL" className='imagem' /> */}
                         <img src={mysql} alt="icone MySQL" className='imagem' />
                     </div>
                 </div>

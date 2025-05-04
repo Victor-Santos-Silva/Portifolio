@@ -14,9 +14,9 @@ const SobreMim = () => {
 
             <div className='sobre'>
                 <div>
-                    <h1 className='tituloSobreMim'>Olá, eu sou Victor, um desenvolvedor de 22 anos da zona leste de São Paulo, apaixonado por tecnologia e inovação.</h1>
+                    <h1 className='tituloSobreMim'>Olá, eu sou Victor, um desenvolvedor de 23 anos da zona leste de São Paulo, apaixonado por tecnologia e inovação.</h1>
                     <br />
-                    <h1 className='tituloSobreMim'>Tenho experiência em desenvolvimento front-end e back-end utilizando tecnologias como HTML, CSS, JavaScript, React JS, Node JS, Java. Também possuo conhecimento básico de MySQL e criação de APIs simples com Node.</h1>
+                    <h1 className='tituloSobreMim'>Tenho experiência em desenvolvimento front-end e back-end utilizando tecnologias como HTML, CSS, JavaScript, React JS, Node JS. Também possuo conhecimento básico de MySQL e criação de APIs simples com Node.</h1>
                     <br />
                     <h1 className='tituloSobreMim'>Meu interesse por programação começou quando criei meus primeiros projetos e percebi o impacto que a tecnologia pode ter na vida das pessoas</h1>
                     <br />
