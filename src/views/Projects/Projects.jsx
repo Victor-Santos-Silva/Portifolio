@@ -2,15 +2,22 @@ import "./Projects.css";
 
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import SaintMichel from "../../components/Projetos/TCC/SaintMichel"
+import Overclock from "../../components/Projetos/Overclock/Overclock";
+import EletroNet from "../../components/Projetos/EletroNet/EletroNet"
 
 function Projects() {
     return (
-        <section c>
+        <section>
             <Header />
             <div className="container-projetos">
-                <h1 className="titulo-projetos">Em breve...</h1>
+                <div className="projeto"><SaintMichel /></div>
+                <div className="projeto"><EletroNet /></div>
+                <div className="projeto"><Overclock /></div>
             </div>
+            <Footer />
         </section>
+
     )
 }
 
