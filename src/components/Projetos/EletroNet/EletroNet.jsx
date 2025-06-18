@@ -1,6 +1,6 @@
 import './eletroNet.css'
 
-import imgEletroNet from '../../../assets/HomePageEletroNet.png'
+import imgEletroNet from '../../../assets/HomePagEeletroNet.png'
 import { Link } from 'react-router-dom';
 
 const EletroNet = () => {
