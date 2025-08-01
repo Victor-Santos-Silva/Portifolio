@@ -12,7 +12,7 @@ const Footer = () => {
             <h1 className='texto-email'>Email: victorsantos.ctt@gmail.com</h1>
             <h1 className='texto-redes-sociais'>Redes Sociais:</h1>
 
-            <a href="https://www.instagram.com/victoor_dev/" target='_blank' rel="noopener noreferrer" className='linkImagem'>
+            <a href="https://www.instagram.com/visantos_dev/" target='_blank' rel="noopener noreferrer" className='linkImagem'>
                 <img src={instagram} alt="imagem do instagram" className='img-footer' />
             </a>
             <a href="https://www.linkedin.com/in/victor-dos-santos-da-silva/" target='_blank' rel="noopener noreferrer" className='linkImagem'>
