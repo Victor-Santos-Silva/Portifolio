@@ -12,8 +12,8 @@ function Projects() {
             <Header />
             <div className="container-projetos">
                 <div className="projeto"><SaintMichel /></div>
-                <div className="projeto"><EletroNet /></div>
-                <div className="projeto"><Overclock /></div>
+                {/* <div className="projeto"><EletroNet /></div>
+                <div className="projeto"><Overclock /></div> */}
             </div>
             <Footer />
         </section>
