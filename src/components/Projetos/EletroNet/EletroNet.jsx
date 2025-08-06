@@ -11,7 +11,7 @@ const EletroNet = () => {
                 <img src={imgEletroNet} alt="imgEletroNet" className='imgEletroNet' />
                 <h2>Descrição:</h2>
                 <p>E-commerce simples (Em Manutenção)</p>
-                <Link to='https://projeto-eletronet.vercel.app/' target='_blank'><b>Veja mais</b></Link>
+                <Link to='https://projeto-eletronet.vercel.app/' target='_blank' className='buttonVejaMais'><b>Veja mais</b></Link>
             </section>
         </>
     )

@@ -26,7 +26,7 @@
     background-color: #1A0B2E;
 }
 
-a {
+.buttonHeader {
     text-decoration: none;
     color: #FFFFFF;
     background-color: #1A0B2E;
@@ -34,7 +34,7 @@ a {
     transition: all 0.3s ease;
 }
 
-a:hover {
+.buttonHeader:hover {
     color: #1A0B2E;
     background-color: #FFFFFF;
     padding: 5px;
@@ -51,8 +51,6 @@ a:hover {
     .menu-palavras {
         font-size: 15px;
         padding: 10px;
-    }
-    .menu{
     }
     .nome-logo {
         font-size: 15px;
