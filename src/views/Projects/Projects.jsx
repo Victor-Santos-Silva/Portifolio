@@ -11,6 +11,7 @@ function Projects() {
     return (
         <section>
             <Header />
+            <h1 id="titleprojetos">Meus Projetos</h1>
             <div className="container-projetos">
                 <div className="projeto"><LeBarbier /></div>
                 <div className="projeto"><SaintMichel /></div>

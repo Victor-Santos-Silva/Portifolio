@@ -1,3 +1,7 @@
+#titleprojetos {
+    text-align: center;
+}
+
 .container-projetos {
     display: flex;
     flex-wrap: wrap;

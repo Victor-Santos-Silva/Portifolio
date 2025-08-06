@@ -1,7 +1,7 @@
 import './Introducao.css';
 import perfil from "../../assets/Foto Perfil.jpg";
 import seta from "../../assets/seta.png"
-
+import { Link } from 'react-router-dom';
 
 function Introducao() {
     return (
@@ -24,7 +24,8 @@ function Introducao() {
             </div>
 
             <div className='container-profissao'>
-                <h1 className='profissao-introducao'>Desenvolvedor Full-Stack.</h1>
+                <h1 className='profissao-introducao'><Link to="/projects" className='botaoIntroducao'>Desenvolvedor Full-Stack.</Link>
+                </h1>
             </div>
         </section>
     )
