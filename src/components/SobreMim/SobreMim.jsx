@@ -24,7 +24,7 @@ const SobreMim = () => {
                     <br />
                     <h1 className='tituloSobreMim'>Fora do código, gosto de explorar novas ideias, assistir séries e estar em contato com inovações tecnológicas.</h1>
                     <br />
-                    <h1 className='tituloSobreMim'>Atualmente, estou cursando o 5º semestre da graduação em Ciência da Computação e o 4º semestre do Técnico em Desenvolvimento de Sistemas, o que me fornece uma base sólida e prática para o desenvolvimento de soluções tecnológicas.</h1>
+                    <h1 className='tituloSobreMim'>Atualmente, estou cursando o 6º semestre da graduação em Ciência da Computação e me formei como Técnico em Desenvolvimento de Sistemas, o que me fornece uma base sólida e prática para o desenvolvimento de soluções tecnológicas.</h1>
                 </div>
             </div>
 
