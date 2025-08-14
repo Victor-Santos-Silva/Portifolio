@@ -2,7 +2,7 @@ import './leBarbier.css'
 
 import html from "../../../assets/Html.png"
 import css from "../../../assets/Css.png"
-import typeScript from "../../../assets/TypeScript.png";
+import typeScript from "../../../assets/Typescript.png";
 import postgress from "../../../assets/Postgress SQL.png";
 import NestJS from "../../../assets/NestJS.png";
 import Next from "../../../assets/Next.png";
