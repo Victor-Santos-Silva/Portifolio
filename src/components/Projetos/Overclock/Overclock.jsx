@@ -11,7 +11,7 @@ const Overclock = () => {
             <section className='container-overclock'>
                 <h1>Overclock</h1>
                 <img src={imgOverclock} alt="imgOverclock" className='imgOverclock' />
-                <h2>tecnologias usadas:</h2>
+                <h2>Tecnologias usadas:</h2>
                 <img src={html} alt="icone JavaScript" className='imagem' />
                 <img src={css} alt="icone JavaScript" className='imagem' />
                 <img src={javaScript} alt="icone JavaScript" className='imagem' />
