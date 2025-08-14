@@ -2,6 +2,8 @@ import './footer.css';
 
 import instagram from '../../assets/instagram.png'
 import linkedin from '../../assets/linkedin.png'
+import github from '../../assets/github-icn.png'
+
 
 const Footer = () => {
     return (
@@ -17,6 +19,9 @@ const Footer = () => {
             </a>
             <a href="https://www.linkedin.com/in/victor-dos-santos-da-silva/" target='_blank' rel="noopener noreferrer" className='linkImagem'>
                 <img src={linkedin} alt="imagem do linkedin" className='img-footer' />
+            </a>
+            <a href="https://github.com/Victor-Santos-Silva" target='_blank' rel="noopener noreferrer" className='linkImagem'>
+                <img src={github} alt="imagem do github" className='img-footer' />
             </a>
 
         </footer>
