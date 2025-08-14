@@ -1,4 +1,4 @@
-.botaoIntroducao{
+.botaoIntroducao {
     color: #7127BA;
     background-color: aliceblue;
     text-decoration: none;
@@ -76,6 +76,10 @@
         flex-direction: column;
     }
 
+    .profissao-introducao {
+        font-size: 20px;
+    }
+
     .containerNome {
         margin: auto;
         margin-top: 50px;
@@ -84,6 +88,29 @@
 
     .frase {
         margin-top: -10px;
+    }
+    .perfil {
+        width: 200px;
+    }
+}
+
+/* 520 */
+@media (max-width: 550px) {
+    .perfil {
+        width: 200px;
+    }
+
+    .profissao-introducao {
+        font-size: 15px;
+        width: 50%;
+    }
+
+    .fraseInspiradora1 {
+        font-size: 12px;
+    }
+
+    .fraseInspiradora {
+        font-size: 25px;
     }
 }
 
