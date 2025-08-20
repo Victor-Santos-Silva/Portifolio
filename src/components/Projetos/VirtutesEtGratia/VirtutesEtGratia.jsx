@@ -1,4 +1,4 @@
-import './virtutesEtGratia.css'
+import './VirtutesEtGratia.css'
 
 import html from "../../../assets/Html.png"
 import css from "../../../assets/Css.png"
