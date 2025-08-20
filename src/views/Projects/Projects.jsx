@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import SaintMichel from "../../components/Projetos/TCC/SaintMichel"
 import LeBarbier from "../../components/Projetos/LeBarbier/LeBarbier"
 import Overclock from "../../components/Projetos/Overclock/Overclock";
+import VirtutesetGratia from "../../components/Projetos/VirtutesEtGratia/VirtutesEtGratia"
 import EletroNet from "../../components/Projetos/EletroNet/EletroNet"
 
 function Projects() {
@@ -13,6 +14,7 @@ function Projects() {
             <Header />
             <h1 className="titleprojetos">Meus Projetos</h1>
             <div className="container-projetos">
+                <div className="projeto"><VirtutesetGratia /></div>
                 <div className="projeto"><LeBarbier /></div>
                 <div className="projeto"><SaintMichel /></div>
                 {/* <div className="projeto"><EletroNet /></div> */}
