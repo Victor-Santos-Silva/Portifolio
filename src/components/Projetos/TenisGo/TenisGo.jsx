@@ -2,7 +2,7 @@ import "./tenisGo.css";
 
 import imgTenisGo from "../../../assets/barbearia site teste.png";
 import reactNative from "../../../assets/react-Native (1).png";
-import java from "../../../assets/java.png";
+import java from "../../../assets/Java.png";
 import typescript from "../../../assets/Typescript.png";
 import { Link } from "react-router-dom";
 
