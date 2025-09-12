@@ -8,6 +8,7 @@ import Overclock from "../../components/Projetos/Overclock/Overclock";
 import VirtutesetGratia from "../../components/Projetos/VirtutesEtGratia/VirtutesEtGratia"
 import EletroNet from "../../components/Projetos/EletroNet/EletroNet"
 import FoodGo from "../../components/Projetos/FoodGo/FoodGo";
+import CoffeeExpress from "../../components/Projetos/CoffeeExpress/CoffeeExpress";
 import TenisGo from "../../components/Projetos/TenisGo/TenisGo";
 
 function Projects() {
@@ -21,6 +22,7 @@ function Projects() {
                 <div className="projeto"><VirtutesetGratia /></div>
                 <div className="projeto"><LeBarbier /></div>
                 <div className="projeto"><SaintMichel /></div>
+                <div className="projeto"><CoffeeExpress /></div>
                 <div className="projeto"><EletroNet /></div>
                 <div className="projeto"><Overclock /></div>
             </div>

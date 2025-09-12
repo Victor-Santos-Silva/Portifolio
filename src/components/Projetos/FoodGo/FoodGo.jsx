@@ -20,7 +20,7 @@ const FoodGo = () => {
 
         <h2>Descrição:</h2>
         <p>Em breve...</p>
-        <Link to="#" target="_blank" className="buttonVejaMais">
+        <Link to="https://github.com/Victor-Santos-Silva/FoodGoMobile" target="_blank" className="buttonVejaMais">
           <b>Veja mais</b>
         </Link>
       </section>
