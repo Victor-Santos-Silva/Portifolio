@@ -8,7 +8,7 @@ import NestJS from "../../../assets/NestJS.png";
 import Next from "../../../assets/Next.png";
 import azure from "../../../assets/Microsoft_Azure.png";
 
-import imgLeBarbier from '../../../assets/barbearia site teste.png'
+import imgLeBarbier from '../../../assets/barbearia site teste (1).png'
 import { Link } from 'react-router-dom';
 
 const LeBarbier = () => {
