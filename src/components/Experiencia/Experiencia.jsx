@@ -6,6 +6,8 @@ import css from "../../assets/Css.png"
 import javaScript from "../../assets/JavaScript.png";
 import react from "../../assets/React.png";
 import Next from "../../assets/Next.png";
+import flutter from "../../assets/flutter.png";
+import reactNative from "../../assets/react-Native (1).png";
 import node from "../../assets/NodeJs.png";
 import java from "../../assets/Java.png"
 import mysql from "../../assets/MySQL.png";
@@ -37,6 +39,12 @@ const Experiencia = () => {
                         <img src={css} alt="icone MySQL" className='imagem' />
                         <img src={react} alt="icone React" className='imagem' />
                         <img src={Next} alt="icone React" className='imagem' />
+                    </div>
+
+                    <div className='container-tecnologias'>
+                        <h1>Mobile:</h1>
+                        <img src={flutter} alt="icone MySQL" className='imagem' />
+                        <img src={reactNative} alt="icone MySQL" className='imagem' />
                     </div>
 
                     <div className='container-tecnologias'>
