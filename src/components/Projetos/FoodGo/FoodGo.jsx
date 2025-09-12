@@ -3,7 +3,7 @@ import "./foodGo.css";
 import imgFoodGo from "../../../assets/FoodGoBackGround.png";
 import flutter from "../../../assets/flutter.png";
 import dart from "../../../assets/dart.png";
-import java from "../../../assets/java.png";
+import java from "../../../assets/Java.png";
 import { Link } from "react-router-dom";
 
 const FoodGo = () => {
