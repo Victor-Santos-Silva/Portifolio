@@ -30,7 +30,7 @@ const Experiencia = () => {
                         <h1>Linguagens:</h1>
                         <img src={javaScript} alt="icone JavaScript" className='imagem' />
                         <img src={typescript} alt="icone Node Js" className='imagem' />
-                        <img src={java} alt="icone Node Js" className='imagem' />
+                        {/* <img src={java} alt="icone Node Js" className='imagem' /> */}
                     </div>
 
                     <div className='container-tecnologias'>
@@ -43,27 +43,27 @@ const Experiencia = () => {
 
                     <div className='container-tecnologias'>
                         <h1>Mobile:</h1>
-                        <img src={flutter} alt="icone MySQL" className='imagem' />
+                        {/* <img src={flutter} alt="icone MySQL" className='imagem' /> */}
                         <img src={reactNative} alt="icone MySQL" className='imagem' />
                     </div>
 
                     <div className='container-tecnologias'>
                         <h1>Back End:</h1>
                         <img src={node} alt="icone Node Js" className='imagem' />
-                        <img src={NestJS} alt="icone Node Js" className='imagem' />
+                        {/* <img src={NestJS} alt="icone Node Js" className='imagem' /> */}
                     </div>
 
                     <div className='container-tecnologias'>
                         <h1>Banco de Dados:</h1>
                         <img src={mysql} alt="icone MySQL" className='imagem' />
                         <img src={postgress} alt="icone MySQL" className='imagem' />
-                        <img src={MongoDB} alt="icone MySQL" className='imagem' />
+                        {/* <img src={MongoDB} alt="icone MySQL" className='imagem' /> */}
                     </div>
                     
                     <div className='container-tecnologias'>
                         <h1>Cloud:</h1>
                         <img src={azure} alt="icone MySQL" className='imagem' />
-                        <img src={gcp} alt="icone MySQL" className='imagem' />
+                        {/* <img src={gcp} alt="icone MySQL" className='imagem' /> */}
                     </div>
                 </div>
             </div>
