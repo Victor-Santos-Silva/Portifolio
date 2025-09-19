@@ -1,9 +1,10 @@
 import "./foodGo.css";
 
 import imgFoodGo from "../../../assets/FoodGoBackGround.png";
-import flutter from "../../../assets/flutter.png";
-import dart from "../../../assets/dart.png";
-import java from "../../../assets/Java.png";
+import reactNative from "../../../assets/react-Native (1).png";
+import node from "../../../assets/NodeJs.png";
+import javascript from "../../../assets/JavaScript.png";
+import postgres from "../../../assets/Postgress SQL.png";
 import { Link } from "react-router-dom";
 
 const FoodGo = () => {
@@ -14,9 +15,10 @@ const FoodGo = () => {
         <img src={imgFoodGo} alt="" className="imgFoodGo" />
 
         <h2>Tecnologias usadas:</h2>
-        <img src={dart} alt="" className="imagem" />
-        <img src={flutter} alt="" className="imagem" />
-        <img src={java} alt="" className="imagem" />
+        <img src={javascript} alt="" className="imagem" />
+        <img src={reactNative} alt="" className="imagem" />
+        <img src={node} alt="" className="imagem" />
+        <img src={postgres} alt="" className="imagem" />
 
         <h2>Descrição:</h2>
         <p>Em breve...</p>
