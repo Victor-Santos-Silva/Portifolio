@@ -16,7 +16,7 @@ const Overclock = () => {
                 <img src={css} alt="icone JavaScript" className='imagem' />
                 <img src={javaScript} alt="icone JavaScript" className='imagem' />
                 <h2>Descrição:</h2>
-                <p>Um "clone" do site da Overclock.</p>
+                <p>Clone do site da Overclock, recriando layout, design e funcionalidades principais para fins de estudo e prática de desenvolvimento web.</p>
                 <Link to='https://site-overclock-bebida-gamer.vercel.app/' target='_blank' className='buttonVejaMais'><b>Veja mais</b></Link>
             </section>
         </>

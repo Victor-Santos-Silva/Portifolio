@@ -21,7 +21,7 @@ const FoodGo = () => {
         <img src={postgres} alt="" className="imagem" />
 
         <h2>Descrição:</h2>
-        <p>Em breve...</p>
+        <p>FoodGo é um aplicativo de delivery que permite aos usuários fazer pedidos de forma rápida e prática, oferecendo uma experiência intuitiva e eficiente.</p>
         <Link to="https://github.com/Victor-Santos-Silva/FoodGoMobile" target="_blank" className="buttonVejaMais">
           <b>Veja mais</b>
         </Link>

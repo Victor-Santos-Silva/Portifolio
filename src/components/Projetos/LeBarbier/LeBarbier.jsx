@@ -28,7 +28,7 @@ const LeBarbier = () => {
                 <img src={azure} alt="icone JavaScript" className='imagem' /> */}
 
                 <h2>Descrição:</h2>
-                <p>Em breve...</p>
+                <p>Landing page de uma barbearia moderna e responsiva, com design atraente que destaca serviços, equipe e facilita o agendamento de horários.</p>
                 <Link to='https://lebarbier.vercel.app/' target='_blank' className='buttonVejaMais'><b>Veja mais</b></Link>
             </section>
         </>

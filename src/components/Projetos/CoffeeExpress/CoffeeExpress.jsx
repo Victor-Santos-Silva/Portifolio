@@ -17,7 +17,7 @@ const CoffeeExpress = () => {
         <img src={reactNative} alt="" className="imagem" />
 
         <h2>Descrição:</h2>
-        <p>Em breve...</p>
+        <p>CoffeeExpress é um aplicativo que auxilia garçons a registrar pedidos de clientes de forma rápida e prática, otimizando o atendimento e reduzindo erros.</p>
         <Link to="https://github.com/Victor-Santos-Silva/CoffeeExpress" target="_blank" className="buttonVejaMais">
           <b>Veja mais</b>
         </Link>
