@@ -1,7 +1,7 @@
 import "./foodGo.css";
 
 import imgFoodGo from "../../../assets/FoodGoBackGround.png";
-import reactNative from "../../../assets/react-Native (1).png";
+import flutter from "../../../assets/flutter.png";
 import node from "../../../assets/NodeJs.png";
 import javascript from "../../../assets/JavaScript.png";
 import postgres from "../../../assets/Postgress SQL.png";
@@ -16,7 +16,7 @@ const FoodGo = () => {
 
         <h2>Tecnologias usadas:</h2>
         <img src={javascript} alt="" className="imagem" />
-        <img src={reactNative} alt="" className="imagem" />
+        <img src={flutter} alt="" className="imagem" />
         <img src={node} alt="" className="imagem" />
         <img src={postgres} alt="" className="imagem" />
 

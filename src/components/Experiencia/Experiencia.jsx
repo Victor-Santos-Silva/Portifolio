@@ -43,7 +43,7 @@ const Experiencia = () => {
 
                     <div className='container-tecnologias'>
                         <h1>Mobile:</h1>
-                        {/* <img src={flutter} alt="icone MySQL" className='imagem' /> */}
+                        <img src={flutter} alt="icone MySQL" className='imagem' />
                         <img src={reactNative} alt="icone MySQL" className='imagem' />
                     </div>
 
