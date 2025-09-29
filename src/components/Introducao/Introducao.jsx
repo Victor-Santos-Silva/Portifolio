@@ -26,15 +26,16 @@ function Introducao() {
           <h5 className="">Criando o futuro, uma linha de código por vez.</h5>
         </div>
       </div>
-      
+
       <div className="container-profissao">
-        <h1>Sou engenheiro de software.</h1>
-        <h3>Atualmente sou Engenheiro de Software no Facebook,</h3>
+        <h1>Sou Desenvolvedor Web</h1>
+        <h3>Atualmente sou desenvolvedor autônomo.</h3>
         <br />
         <p>
-          Designer de UI/UX autodidata, atuando no setor há mais de 3 anos. Crio
-          produtos digitais significativos e encantadores que criam um
-          equilíbrio entre as necessidades do usuário e os objetivos do negócio.
+          Desenvolvedor front-end autodidata, atuando no setor há mais de 2
+          anos. Crio aplicações web e mobile funcionais e elegantes, focadas na
+          experiência do usuário e na entrega de soluções que atendem tanto às
+          necessidades dos clientes quanto aos objetivos do negócio.
         </p>
       </div>
     </section>
