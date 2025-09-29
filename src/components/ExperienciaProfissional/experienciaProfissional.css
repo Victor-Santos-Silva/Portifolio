@@ -1,0 +1,55 @@
+.section-card {
+  margin: 0 10%;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* permite quebrar linha */
+  gap: 20px; /* espaçamento entre os cards */
+  justify-content: center; /* centraliza as linhas */
+}
+
+.container-card {
+  display: flex;
+  flex: 0 0 calc(50% - 20px); /* 50% da largura menos o gap */
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 8px;
+  box-sizing: border-box; /* garante cálculo correto */
+  background-color: #261045;
+}
+
+.img-card {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 18px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.descricao-card {
+  font-size: 11px;
+  text-align: justify;
+}
+
+.titulo-card {
+  text-align: center;
+}
+
+.botaoExperiencia {
+  background-color: #2c1250;
+  border: #693b93 1px solid;
+  border-radius: 10px;
+  padding: 5px 20px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+.botaoExperiencia:hover {
+  background-color: white;
+  color: #2c1250;
+  transform: scale(1.1);
+}

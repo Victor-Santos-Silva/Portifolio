@@ -1,164 +1,132 @@
+:root {
+  --primary: #7127ba;
+  --bg-light: aliceblue;
+  --shadow-light: rgba(255, 255, 255, 0.3);
+  --shadow-purple: rgba(162, 67, 206, 0.8);
+  --spacing-section: 3rem;
+}
+
+/* Botão */
 .botaoIntroducao {
-    color: #7127BA;
-    background-color: aliceblue;
-    text-decoration: none;
+  color: var(--primary);
+  background-color: var(--bg-light);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.botaoIntroducao:hover {
+  background-color: var(--primary);
+  color: #fff;
 }
 
+/* Seção principal */
 .container-introducao-master {
-    margin-top: 50px;
-    margin-bottom: 100px;
-
+  margin-block: var(--spacing-section);
 }
 
-/* containerNome */
+/* Nome e seta */
 .containerNome {
-    display: flex;
-    justify-content: center;
-    margin-left: -200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .seta {
-    width: 100px;
+  width: 6rem;
 }
 
+/* Texto roxo reutilizável */
 .cor-roxa {
-    color: #7127BA;
+  color: var(--primary);
 }
 
-/* container-introducao */
+/* Introdução */
 .container-introducao {
-    text-align: justify;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin-top: -120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-block: 2rem;
+  text-align: justify;
 }
 
 .perfil {
-    border-radius: 50%;
-    margin-top: 110px;
-    box-shadow: 0 0 20px 10px rgba(162, 67, 206, 0.8);
-    width: 19%;
+  width: 19%;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 10px var(--shadow-purple);
 }
 
 .frase {
-    text-align: left;
-    margin-top: 100px;
+  text-align: left;
 }
 
 .fraseInspiradora1 {
-    font-size: 17px;
+  font-size: 1rem;
 }
 
 .fraseInspiradora {
-    font-size: 45px;
+  font-size: 2.8rem;
 }
 
+/* Profissão */
 .container-profissao {
-    margin-top: 100px;
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: justify;
 }
 
 .profissao-introducao {
-    text-align: center;
-    font-size: 25px;
-    color: #7127BA;
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3);
-    background-color: aliceblue;
-    width: 40%;
-    padding: 10px;
-    margin: auto;
-    border-radius: 50px;
+  width: 40%;
+  margin: auto;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--primary);
+  background-color: var(--bg-light);
+  box-shadow: 0 0 20px 10px var(--shadow-light);
+  border-radius: 50px;
 }
 
+/* ======= Media Queries ======= */
 @media (max-width: 839px) {
-    .container-introducao {
-        flex-direction: column;
-    }
-
-    .profissao-introducao {
-        font-size: 20px;
-    }
-
-    .containerNome {
-        margin: auto;
-        margin-top: 50px;
-        margin-left: 150px;
-    }
-
-    .frase {
-        margin-top: -10px;
-    }
-    .perfil {
-        width: 200px;
-    }
+  .container-introducao {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .perfil {
+    width: 200px;
+  }
+  .profissao-introducao {
+    width: 60%;
+    font-size: 1.25rem;
+  }
 }
 
-/* 520 */
 @media (max-width: 550px) {
-    .perfil {
-        width: 200px;
-    }
-
-    .profissao-introducao {
-        font-size: 15px;
-        width: 50%;
-    }
-
-    .fraseInspiradora1 {
-        font-size: 12px;
-    }
-
-    .fraseInspiradora {
-        font-size: 25px;
-    }
+  .fraseInspiradora {
+    font-size: 1.8rem;
+  }
+  .fraseInspiradora1 {
+    font-size: 0.75rem;
+  }
+  .profissao-introducao {
+    width: 70%;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 412px) {
-    .perfil {
-        width: 200px;
-    }
-
-    .seta {
-        width: 50px;
-    }
-
-    .cor-roxa {
-        color: #7127BA;
-    }
-
-    h3 {
-        font-size: 15px;
-        text-align: center;
-    }
-
-    .containerNome {
-        justify-content: center;
-        width: 200px;
-        margin-bottom: 20px;
-        margin-left: 170px;
-    }
-
-    .frase {
-        text-align: left;
-        margin-top: 10px;
-        width: 80%;
-    }
-
-    .fraseInspiradora1 {
-        font-size: 10px;
-    }
-
-    .fraseInspiradora {
-        font-size: 20px;
-    }
-
-    .container-profissao {
-        margin-top: 50px;
-    }
-
-    .profissao-introducao {
-        font-size: 15px;
-        width: 50%;
-    }
+  .seta {
+    width: 3rem;
+  }
+  .perfil {
+    width: 160px;
+  }
+  .frase {
+    width: 90%;
+    margin-inline: auto;
+  }
 }

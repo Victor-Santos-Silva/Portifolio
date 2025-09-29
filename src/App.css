@@ -1,16 +1,19 @@
 @font-face {
-    font-family: Preahvihear;
-    src: url('./fonts/Preahvihear-Regular.ttf');
+  font-family: Preahvihear;
+  src: url("./fonts/Preahvihear-Regular.ttf");
+}
+
+body {
+  background-color: #11071f;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    background-color: #11071F;
-    font-family: Preahvihear;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Preahvihear;
+  color: #fff;
 }
 
 .buttonVejaMais {
-    text-decoration: none;
+  text-decoration: none;
 }
