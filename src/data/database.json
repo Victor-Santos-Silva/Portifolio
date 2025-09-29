@@ -11,20 +11,20 @@
     "nome": "Hospital Saint Michel",
     "descricao": "Criado para um ambiente hospitalar, esse sistema resolve um dos maiores desafios da área da saúde: agendamentos confusos e demorados. Com ele, pacientes agendam consultas de forma prática e intuitiva, enquanto a equipe médica ganha mais controle e organização. (Projeto de TCC)",
     "foto": "/assets/HomePageSaintMichel.png",
-    "link": "https://site-overclock-bebida-gamer.vercel.app/"
+    "link": "https://hospitalsaintmichel.vercel.app/"
   },
   {
     "id":"3",
     "nome": "Barbearia LeBarbier",
     "descricao": "Landing page de uma barbearia moderna e responsiva, com design atraente que destaca serviços, equipe e facilita o agendamento de horários.",
     "foto": "/assets/barbearia site teste (1).png",
-    "link": "https://site-overclock-bebida-gamer.vercel.app/"
+    "link": "https://lebarbier.vercel.app/"
   },
   {
     "id":"4",
     "nome": "CoffeeExpress Mobile",
     "descricao": "CoffeeExpress é um aplicativo que auxilia garçons a registrar pedidos de clientes de forma rápida e prática, otimizando o atendimento e reduzindo erros.",
     "foto": "/assets/CoffeeExpress.png",
-    "link": "https://site-overclock-bebida-gamer.vercel.app/"
+    "link": "https://github.com/Victor-Santos-Silva/CoffeeExpress"
   }
 ]
