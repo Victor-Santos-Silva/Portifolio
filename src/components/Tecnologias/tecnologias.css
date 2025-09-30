@@ -1,22 +1,61 @@
-.testeasdasd {
-  font-size: 22px;
+.tecnologias-section {
+  padding: 40px 20px; /* Adiciona espaçamento vertical e horizontal */
   text-align: center;
-  width: 80%;
-  margin: auto;
+  margin: 60px 0;
 }
 
-.testeSection {
-  margin: 100px 0px;
+.tecnologias-titulo {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
-.imgHtml {
-  width: 100px;
-  margin: 10px;
+.section-descricao {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px; /* Limita a largura do texto para melhor legibilidade */
+  margin: 0 auto 50px auto; /* Centraliza o parágrafo */
 }
 
-.container-icones {
+.icones-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 0px 200px;
+  justify-content: center; /* Centraliza os ícones */
+  gap: 30px 20px; /* Espaçamento vertical e horizontal entre os ícones */
+  max-width: 1000px; /* Define uma largura máxima para o container */
+  margin: 0 auto; /* Centraliza o container na página */
+}
+
+.icone-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.icone-img {
+  width: 80px; /* Tamanho base dos ícones */
+  height: 80px;
+  object-fit: contain; /* Garante que o ícone caiba sem distorcer */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.icone-img:hover {
+  transform: scale(1.15); /* Efeito de zoom ao passar o mouse */
+}
+
+.icone-wrapper span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Media Query para telas menores */
+@media (max-width: 600px) {
+  .tecnologias-titulo {
+    font-size: 2rem;
+  }
+
+  .icone-img {
+    width: 65px; /* Diminui o tamanho dos ícones em telas de celular */
+    height: 65px;
+  }
 }
