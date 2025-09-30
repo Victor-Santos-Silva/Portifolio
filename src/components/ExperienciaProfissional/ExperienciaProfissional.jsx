@@ -5,23 +5,20 @@ import { Link } from "react-router-dom";
 
 export default function ExperienciaProfissional() {
   return (
-    <section className="section-card">
-      <h1 className="titulo-card">Experiência Profissional</h1>
+    <section className="projetos-section">
+      <h1 className="projetos-titulo">Alguns Projetos Pessoais</h1>
       <div className="cards-wrapper">
-        {database.map((card, index) => (
-          <div key={`${card.id}-${index}`} className="container-card">
-            <div>
-              <img src={card.foto} alt="" className="img-card" />
-            </div>
-
-            <div>
-              <h1>{card.nome}</h1>
-              <p className="descricao-card">{card.descricao}</p>
-              <Link to={card.link} target="_blank" className="botaoExperiencia buttonVejaMais">
-                Veja mais.
+        {database.map((card) => (
+          <article key={card.id} className="card-container">
+            <img src={card.foto} alt={card.nome} className="card-img" />
+            <div className="card-body">
+              <h2 className="card-titulo">{card.nome}</h2>
+              <p className="card-descricao">{card.descricao}</p>
+              <Link to={card.link} target="_blank" className="card-botao">
+                Veja mais
               </Link>
             </div>
-          </div>
+          </article>
         ))}
       </div>
     </section>
