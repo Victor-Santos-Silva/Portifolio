@@ -1,0 +1,22 @@
+.testeasdasd {
+  font-size: 22px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.testeSection {
+  margin: 100px 0px;
+}
+
+.imgHtml {
+  width: 100px;
+  margin: 10px;
+}
+
+.container-icones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0px 200px;
+}

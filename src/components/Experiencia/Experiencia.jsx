@@ -9,13 +9,13 @@ import Next from "../../assets/Next.png";
 import flutter from "../../assets/flutter.png";
 import reactNative from "../../assets/react-Native (1).png";
 import node from "../../assets/NodeJs.png";
-import java from "../../assets/Java.png"
 import mysql from "../../assets/MySQL.png";
 import postgress from "../../assets/Postgress SQL.png";
 import typescript from "../../assets/Typescript.png";
+import azure from "../../assets/Microsoft_Azure.png";
+import java from "../../assets/Java.png"
 import NestJS from "../../assets/NestJS.png";
 import MongoDB from "../../assets/MongoDB.png";
-import azure from "../../assets/Microsoft_Azure.png";
 import gcp from "../../assets/cgp cloud.png";
 
 const Experiencia = () => {
