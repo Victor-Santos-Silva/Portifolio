@@ -1,43 +1,64 @@
+// Introducao.jsx
 import "./Introducao.css";
 import perfil from "../../assets/Foto Perfil.jpg";
 import seta from "../../assets/seta.png";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; // Supondo que você use react-router
 
 function Introducao() {
   return (
-    <section className="container-introducao-master">
-      <div className="containerNome">
-        <img src={seta} alt="seta" className="seta" />
-        <h3>
+    // Usando a metodologia BEM para as classes (ex: bloco__elemento)
+    <section className="intro">
+      <header className="intro__header">
+        <img src={seta} alt="Seta decorativa" className="intro__header-seta" />
+        <p className="intro__header-greeting">
           Olá! Eu sou <b className="cor-roxa">Victor dos Santos.</b>
-        </h3>
-      </div>
+        </p>
+      </header>
 
-      <div className="container-introducao">
-        <img src={perfil} alt="" className="perfil" />
-
-        <div className="frase">
-          <h2 className="fraseInspiradora1">Explorando o limite</h2>
-          <h1 className="fraseInspiradora">Entre o possível</h1>
-          <h1 className="fraseInspiradora">E o extraordinário</h1>
-          <h1 className="fraseInspiradora">
-            Na <b className="cor-roxa">tecnologia.</b>
-          </h1>
-          <h5 className="">Criando o futuro, uma linha de código por vez.</h5>
+      <div className="intro__main">
+        <img
+          src={perfil}
+          alt="Foto de perfil de Victor dos Santos"
+          className="intro__main-photo"
+        />
+        <div className="intro__main-text">
+          {/* O texto principal foi agrupado em um único parágrafo para melhor semântica */}
+          <p className="intro__tagline">
+            Explorando o limite
+            <span>Entre o possível e o extraordinário</span>
+            <span>
+              Na <b className="cor-roxa">tecnologia.</b>
+            </span>
+          </p>
+          <p className="intro__subtitle">
+            Criando o futuro, uma linha de código por vez.
+          </p>
         </div>
       </div>
 
-      <div className="container-profissao">
-        <h1>Sou Desenvolvedor Web</h1>
-        <h3>Atualmente sou desenvolvedor autônomo.</h3>
-        <br />
-        <p>
+      <footer className="intro__footer">
+        {/* Este deve ser o ÚNICO H1 desta seção, o título principal */}
+        <h1 className="intro__footer-title">Sou Desenvolvedor Web</h1>
+        <h2 className="intro__footer-subtitle">
+          Atualmente sou desenvolvedor autônomo.
+        </h2>
+        <p className="intro__footer-bio">
           Desenvolvedor front-end autodidata, atuando no setor há mais de 2
           anos. Crio aplicações web e mobile funcionais e elegantes, focadas na
           experiência do usuário e na entrega de soluções que atendem tanto às
           necessidades dos clientes quanto aos objetivos do negócio.
         </p>
-      </div>
+
+        {/* Adicionando botões de Call to Action (CTA) */}
+        <div className="intro__footer-cta">
+          <Link to="/projects" className="botaoIntroducao">
+            Meus Projetos
+          </Link>
+          <a href="https://www.instagram.com/visantos_dev/" target="_blank" className="botaoIntroducao">
+            Entrar em Contato
+          </a>
+        </div>
+      </footer>
     </section>
   );
 }

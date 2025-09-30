@@ -6,127 +6,138 @@
   --spacing-section: 3rem;
 }
 
-/* Botão */
-.botaoIntroducao {
-  color: var(--primary);
-  background-color: var(--bg-light);
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 50px;
-  font-weight: 600;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-.botaoIntroducao:hover {
-  background-color: var(--primary);
-  color: #fff;
-}
-
-/* Seção principal */
-.container-introducao-master {
+/* ===== Bloco Principal: .intro ===== */
+.intro {
   margin-block: var(--spacing-section);
+  padding-inline: 1rem; /* Adiciona um respiro nas laterais */
 }
 
-/* Nome e seta */
-.containerNome {
+/* --- Elementos do Header --- */
+.intro__header {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
-
-.seta {
+.intro__header-seta {
   width: 6rem;
 }
-
-/* Texto roxo reutilizável */
-.cor-roxa {
-  color: var(--primary);
+.intro__header-greeting {
+  font-size: 1.2rem;
 }
 
-/* Introdução */
-.container-introducao {
+/* --- Elementos do Main --- */
+.intro__main {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  margin-block: 2rem;
-  text-align: justify;
+  margin-block: 3rem;
+  flex-wrap: wrap; /* Permite que quebre a linha em telas menores */
 }
-
-.perfil {
-  width: 19%;
+.intro__main-photo {
+  width: 100%;
+  max-width: 280px; /* Usar max-width é mais seguro que % */
+  aspect-ratio: 1 / 1; /* Garante que a imagem seja sempre um círculo perfeito */
+  object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 0 20px 10px var(--shadow-purple);
 }
-
-.frase {
+.intro__main-text {
   text-align: left;
 }
 
-.fraseInspiradora1 {
-  font-size: 1rem;
-}
-
-.fraseInspiradora {
+.intro__tagline {
   font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.intro__tagline span {
+  display: block; /* Força a quebra de linha */
+}
+.intro__subtitle {
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
-/* Profissão */
-.container-profissao {
+/* --- Elementos do Footer --- */
+.intro__footer {
   max-width: 800px;
   margin: 2rem auto;
+  text-align: center; /* Centralizar o conteúdo do footer */
+}
+.intro__footer-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.intro__footer-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+.intro__footer-bio {
   text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.intro__footer-cta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
-.profissao-introducao {
-  width: 40%;
-  margin: auto;
-  padding: 0.6rem 1rem;
-  text-align: center;
-  font-size: 1.6rem;
+/* ===== Componentes Reutilizáveis ===== */
+.cor-roxa {
+  color: var(--primary);
+}
+
+.botaoIntroducao {
   color: var(--primary);
   background-color: var(--bg-light);
-  box-shadow: 0 0 20px 10px var(--shadow-light);
+  text-decoration: none;
+  padding: 0.75rem 1.5rem; /* Aumentei um pouco para melhor toque */
   border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 1px solid var(--primary);
+}
+.botaoIntroducao:hover {
+  background-color: var(--primary);
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* ======= Media Queries ======= */
-@media (max-width: 839px) {
-  .container-introducao {
+/* ===== Media Queries ===== */
+@media (max-width: 768px) {
+  .intro__main {
     flex-direction: column;
     gap: 2rem;
+    text-align: center;
   }
-  .perfil {
-    width: 200px;
+  .intro__main-text {
+    text-align: center;
   }
-  .profissao-introducao {
-    width: 60%;
-    font-size: 1.25rem;
+  .intro__tagline {
+    font-size: 2.2rem;
   }
 }
 
-@media (max-width: 550px) {
-  .fraseInspiradora {
-    font-size: 1.8rem;
+@media (max-width: 480px) {
+  .intro__header-seta {
+    width: 3.5rem;
   }
-  .fraseInspiradora1 {
-    font-size: 0.75rem;
-  }
-  .profissao-introducao {
-    width: 70%;
+  .intro__header-greeting {
     font-size: 1rem;
   }
-}
-
-@media (max-width: 412px) {
-  .seta {
-    width: 3rem;
+  .intro__tagline {
+    font-size: 1.8rem;
   }
-  .perfil {
-    width: 160px;
+  .intro__main-photo {
+    max-width: 200px;
   }
-  .frase {
-    width: 90%;
-    margin-inline: auto;
+  .intro__footer-title {
+    font-size: 2rem;
   }
 }

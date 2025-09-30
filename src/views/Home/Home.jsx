@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header";
 import Introducao from "../../components/Introducao/Introducao";
 import ExperienciaProfissional from "../../components/ExperienciaProfissional/ExperienciaProfissional";
 import Tecnologias from "../../components/Tecnologias/Tecnologias";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Introducao />
       <ExperienciaProfissional />
       <Tecnologias />
+      <Footer />
     </>
   );
 }
