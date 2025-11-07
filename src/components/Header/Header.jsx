@@ -1,6 +1,5 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import "./header.css"; // Supondo que o CSS esteja nesse arquivo
+import "./header.css";
 
 function Header() {
   return (
@@ -11,8 +10,7 @@ function Header() {
         </Link>
       </div>
 
-      {/* Adiciona a classe 'menu-aberto' quando o estado for true */}
-      <nav className={`menu-principal`}>
+      <nav className="menu-principal">
         <ul>
           <li>
             <Link to="/" className="buttonHeader">
