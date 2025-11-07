@@ -8,12 +8,12 @@ function Introducao() {
   return (
     // Usando a metodologia BEM para as classes (ex: bloco__elemento)
     <section className="intro">
-      <header className="intro__header">
+      {/* <header className="intro__header">
         <img src={seta} alt="Seta decorativa" className="intro__header-seta" />
         <p className="intro__header-greeting">
           Olá! Eu sou <b className="cor-roxa">Victor dos Santos.</b>
         </p>
-      </header>
+      </header> */}
 
       <div className="intro__main">
         <img

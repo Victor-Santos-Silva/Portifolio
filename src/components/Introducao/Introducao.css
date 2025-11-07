@@ -10,14 +10,13 @@
 .intro {
   margin-block: var(--spacing-section);
   padding-inline: 1rem; /* Adiciona um respiro nas laterais */
+  margin-top: 150px;
 }
 
 /* --- Elementos do Header --- */
 .intro__header {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
+  
 }
 .intro__header-seta {
   width: 6rem;
