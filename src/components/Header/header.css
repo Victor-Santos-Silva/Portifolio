@@ -1,9 +1,8 @@
 .containerHeader {
   display: flex;
-  justify-content: space-around; /* Melhor que space-around para alinhar logo à esquerda e menu à direita */
+  justify-content: space-around;
   align-items: center;
   padding: 15px 30px;
-  position: relative; /* Necessário para posicionar o menu mobile */
   background-color: #1a0b2e;
 }
 
@@ -19,7 +18,8 @@
   list-style: none; /* Remove as bolinhas da lista */
   display: flex;
   gap: 25px; /* Espaçamento entre os itens do menu */
-  background-color: #1a0b2e;
+  align-items: center;
+  text-align: center;
 }
 
 .buttonHeader {
@@ -30,57 +30,10 @@
   border-radius: 10px;
   transition: all 0.3s ease;
   font-weight: bold;
-  background-color: #1a0b2e;
 }
 
 .buttonHeader:hover {
   color: #1a0b2e;
   background-color: #ffffff;
   transform: scale(1.1);
-}
-
-.menu-hamburguer {
-  display: none; /* Escondido por padrão em telas grandes */
-  background: none;
-  border: none;
-  color: #ffffff;
-  font-size: 28px;
-  cursor: pointer;
-}
-
-/* --- ESTILOS RESPONSIVOS (MOBILE) --- */
-@media (max-width: 768px) {
-  /* Mostra o botão hambúrguer */
-  .menu-hamburguer {
-    display: block;
-    z-index: 1001; /* Garante que fique acima do menu */
-  }
-
-  /* Esconde o menu de navegação por padrão */
-  .menu-principal {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh; /* Ocupa a tela inteira */
-    z-index: 1000;
-  }
-
-  /* Mostra o menu quando a classe .menu-aberto for aplicada */
-  .menu-principal.menu-aberto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .menu-principal ul {
-    flex-direction: column; /* Itens do menu em coluna */
-    text-align: center;
-    gap: 40px; /* Aumenta o espaçamento vertical */
-  }
-
-  .buttonHeader {
-    font-size: 22px; /* Fonte maior para melhor toque */
-  }
 }
