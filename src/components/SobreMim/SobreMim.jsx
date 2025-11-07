@@ -1,7 +1,7 @@
 // Css
 import './sobremim.css';
 
-import foto from '../../assets/Foto Perfil.jpg'
+import foto from '../../assets/Foto De Perfil.jpg'
 
 const SobreMim = () => {
     return (

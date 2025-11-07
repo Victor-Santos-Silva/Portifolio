@@ -1,6 +1,6 @@
 // Introducao.jsx
 import "./Introducao.css";
-import perfil from "../../assets/Foto Perfil.jpg";
+import perfil from "../../assets/Foto De Perfil.jpg";
 import seta from "../../assets/seta.png";
 import { Link } from "react-router-dom"; // Supondo que você use react-router
 
