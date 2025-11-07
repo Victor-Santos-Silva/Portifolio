@@ -18,8 +18,8 @@ function Projects() {
             <h1 className="titleprojetos">Meus Projetos</h1>
             <div className="container-projetos">
                 {/* <div className="projeto"><TenisGo /></div> */}
-                <div className="projeto"><FoodGo /></div>
-                <div className="projeto"><VirtutesetGratia /></div>
+                {/* <div className="projeto"><FoodGo /></div>
+                <div className="projeto"><VirtutesetGratia /></div> */}
                 <div className="projeto"><LeBarbier /></div>
                 <div className="projeto"><SaintMichel /></div>
                 <div className="projeto"><CoffeeExpress /></div>
