@@ -140,3 +140,9 @@
     font-size: 2rem;
   }
 }
+
+@media (max-width: 1155px) {
+  .intro {
+    margin-top: 10px;
+  }
+}
