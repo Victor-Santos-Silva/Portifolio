@@ -46,3 +46,9 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 374px) {
+  .buttonHeader {
+    font-size: 11px;
+  }
+}
