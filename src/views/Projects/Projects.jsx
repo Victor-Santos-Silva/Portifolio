@@ -20,9 +20,9 @@ function Projects() {
                 {/* <div className="projeto"><TenisGo /></div> */}
                 {/* <div className="projeto"><FoodGo /></div>
                 <div className="projeto"><VirtutesetGratia /></div> */}
-                <div className="projeto"><LeBarbier /></div>
+                {/* <div className="projeto"><LeBarbier /></div> */}
                 <div className="projeto"><SaintMichel /></div>
-                <div className="projeto"><CoffeeExpress /></div>
+                {/* <div className="projeto"><CoffeeExpress /></div> */}
                 {/* <div className="projeto"><EletroNet /></div> */}
                 <div className="projeto"><Overclock /></div>
             </div>

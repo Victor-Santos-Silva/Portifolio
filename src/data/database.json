@@ -12,12 +12,5 @@
     "descricao": "Criado para um ambiente hospitalar, esse sistema resolve um dos maiores desafios da área da saúde: agendamentos confusos e demorados. Com ele, pacientes agendam consultas de forma prática e intuitiva, enquanto a equipe médica ganha mais controle e organização. (Projeto de TCC)",
     "foto": "/assets/HomePageSaintMichel.png",
     "link": "https://hospitalsaintmichel.vercel.app/"
-  },
-  {
-    "id":"3",
-    "nome": "Barbearia LeBarbier",
-    "descricao": "Landing page de uma barbearia moderna e responsiva, com design atraente que destaca serviços, equipe e facilita o agendamento de horários.",
-    "foto": "/assets/barbearia site teste (1).png",
-    "link": "https://lebarbier.vercel.app/"
   }
 ]

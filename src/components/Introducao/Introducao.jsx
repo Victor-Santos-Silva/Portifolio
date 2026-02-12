@@ -38,12 +38,12 @@ function Introducao() {
 
       <footer className="intro__footer">
         {/* Este deve ser o ÚNICO H1 desta seção, o título principal */}
-        <h1 className="intro__footer-title">Sou Desenvolvedor Web</h1>
+        <h1 className="intro__footer-title">Sou Desenvolvedor Full Stack</h1>
         <h2 className="intro__footer-subtitle">
           Atualmente sou desenvolvedor autônomo.
         </h2>
         <p className="intro__footer-bio">
-          Desenvolvedor front-end autodidata, atuando no setor há mais de 2
+          Desenvolvedor Full Stack autodidata, atuando no setor há mais de 2
           anos. Crio aplicações web e mobile funcionais e elegantes, focadas na
           experiência do usuário e na entrega de soluções que atendem tanto às
           necessidades dos clientes quanto aos objetivos do negócio.
