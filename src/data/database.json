@@ -12,5 +12,12 @@
     "descricao": "Criado para um ambiente hospitalar, esse sistema resolve um dos maiores desafios da área da saúde: agendamentos confusos e demorados. Com ele, pacientes agendam consultas de forma prática e intuitiva, enquanto a equipe médica ganha mais controle e organização. (Projeto de TCC)",
     "foto": "/assets/HomePageSaintMichel.png",
     "link": "https://hospitalsaintmichel.vercel.app/"
+  },
+  {
+    "id":"3",
+    "nome": "CoffeeExpress Mobile",
+    "descricao": "Aplicativo mobile desenvolvido para auxiliar garçons a registrar pedidos de clientes de forma rápida e prática, otimizando o atendimento e reduzindo erros.",
+    "foto": "/assets/CoffeeExpress.png",
+    "link": "https://github.com/Victor-Santos-Silva/Coffee-Express-2"
   }
 ]
