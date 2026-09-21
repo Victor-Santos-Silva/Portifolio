@@ -20,9 +20,9 @@ function Projects() {
         <div className="projeto">
           <SaintMichel />
         </div>
-        <div className="projeto">
+        {/* <div className="projeto">
           <CoffeeExpress />
-        </div>
+        </div> */}
         <div className="projeto">
           <Overclock />
         </div>

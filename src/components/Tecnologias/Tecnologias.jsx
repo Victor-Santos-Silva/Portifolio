@@ -14,7 +14,7 @@ import nodeIcon from "../../assets/NodeJs.png";
 import mysqlIcon from "../../assets/MySQL.png";
 import postgresIcon from "../../assets/Postgress SQL.png";
 import tsIcon from "../../assets/Typescript.png";
-import azureIcon from "../../assets/Microsoft_Azure.png";
+import NestJs from "../../assets/NestJS.png";
 
 // 1. Criamos um array com os dados das tecnologias
 const tecnologias = [
@@ -24,12 +24,12 @@ const tecnologias = [
   { nome: "TypeScript", icone: tsIcon },
   { nome: "React", icone: reactIcon },
   { nome: "Next.js", icone: nextIcon },
-  { nome: "Flutter", icone: flutterIcon },
-  { nome: "React Native", icone: reactNativeIcon },
+  /* { nome: "Flutter", icone: flutterIcon }, */
+  /* { nome: "React Native", icone: reactNativeIcon }, */
   { nome: "Node.js", icone: nodeIcon },
-  { nome: "MySQL", icone: mysqlIcon },
+  { nome: "Nest.js", icone: NestJs },
+  /* { nome: "MySQL", icone: mysqlIcon }, */
   { nome: "PostgreSQL", icone: postgresIcon },
-  { nome: "Azure", icone: azureIcon },
 ];
 
 export default function Tecnologias() {

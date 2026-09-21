@@ -17,7 +17,7 @@ const SobreMim = () => {
       <div className="sobre">
         <div>
           <h1 className="tituloSobreMim">
-            Olá, eu sou Victor, um desenvolvedor de 23 anos da zona leste de São
+            Olá, eu sou Victor, um desenvolvedor de 24 anos da zona leste de São
             Paulo, apaixonado por tecnologia e inovação.
           </h1>
           <br />
